@@ -8,7 +8,7 @@
             if src[outer_index][inner_index] < lowest_temperature
             lowest_temperature = src[outer_index][inner_index]
             end
-            inner_index =+ 1
+            inner_index += 1
             end
             low_temp_results << lowest_temperature
         outer_index += 1
